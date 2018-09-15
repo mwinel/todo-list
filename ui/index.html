@@ -20,7 +20,20 @@
         </div>
         <div class="container">
             <div class="todo-list">
-                <h1>My Todos</h1>
+                <div class="title">
+                    <h1>My Todos</h1>
+                </div>
+                <div class="item">
+                    <input type="text-item" id="todoItem" placeholder="Something to be done...">
+                    <button onclick="newItem()" class="btn-add">Add Item</button>
+                </div>
+                <ul id="todoItems">
+                    <li>Go to andela for level-up 35</li>
+                    <li>Call my mom to say hello</li>
+                    <li class="done">Write 1200 lines of code</li>
+                    <li>Can't miss the football game</li>
+                    <li>Call Stephanie</li>
+                </ul>
             </div>
         </div>
     </body>
