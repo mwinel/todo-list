@@ -20,7 +20,7 @@ input[type=text], [type=password] {
     border: 1px solid #ced4da;
     border-radius: 4px;
     font-family: inherit;
-    columns: #495057;
+    color: #495057;
 }
 
 input[type=text]:focus, [type=password]:focus {
