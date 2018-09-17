@@ -13,6 +13,13 @@ newItem = () => {
     }
     document.getElementById("todoItem").value = "";
 
+    // Create a share button and append it to the todo item
+    const share = document.createElement("SPAN");
+    const shareBtn = document.createTextNode("share");
+    share.className = "share";
+    share.appendChild(shareBtn);
+    listItem.appendChild(share);
+
     // Create a delete button and append it to the todo item
     const span = document.createElement("SPAN");
     const deleteItem = document.createTextNode("\u00D7");

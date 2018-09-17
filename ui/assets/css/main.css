@@ -251,7 +251,7 @@ ul li.done {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 0px 16px 3px 16px;
+    padding: 0px 15px 3px 16px;
     font-size: 35px;
     color: crimson;
 }
@@ -259,4 +259,21 @@ ul li.done {
 .close:hover {
     background-color: crimson;
     color: white;
+}
+
+.share {
+    position: absolute;
+    top: 28%;
+    margin-left: 15px;
+    padding: 3px 8px 3px 8px;
+    font-size: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #2196F3;
+}
+
+.share:hover {
+    color: #ffffff;
+    background: #2196F3;
+    border: 1px solid #2196F3;
 }
