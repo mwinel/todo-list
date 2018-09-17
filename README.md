@@ -2,7 +2,7 @@
 This is an app that provides users with the ability to create different todo-lists. A single todo-list can have many todo-items.
 
 ### UI
-[Check out the project user interface](https://mwinel.github.io/todo-list/ui/index.html)
+[Check out the project user interface](https://mwinel.github.io/todo-list/ui/signup.html)
 
 The UI has the following necessary pages as specified below.
 
