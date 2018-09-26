@@ -7,7 +7,6 @@ class Pets:
     """
 
     animal_type = "mammals"
-    some_pets = []
 
     def __init__(self, name, age):
         self.name = name
@@ -20,7 +19,6 @@ class Pets:
         return self.age
 
     def walk(self):
-        # for pet in Pets.some_pets:
         return self.name + " is walking!"
 
 
